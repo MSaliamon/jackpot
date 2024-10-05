@@ -7,30 +7,57 @@ body {
     color: $main-color;
     .header {
         padding: 40px 20px;
-        @include flex(row, space-around, center, 0);
-        .nav {
-            @include flex(row, center, center, 35px);
-            &__list {
-                @include flex(row, center, center, 31px);
+        @include flex(column, center, center, 15px);
+        &-container1 {
+            @include flex(row, space-between, center, 137px);
+            .nav {
+                @include flex(row, center, center, 35px);
+                &__list {
+                    @include flex(row, center, center, 31px);
+                }
+                &__item {
+                    @include flex(row, center, center, 9px);
+                }
+                &__link {
+                    @include Roboto(18px, 500, 21px);
+                    color: $main-color;
+                    text-decoration: none;
+                }
+                &__btn {
+                }
             }
-            &__item {
-                @include flex(row, center, center, 9px);
-            }
-            &__link {
-                @include Roboto(18px, 500, 21px);
-                color: $main-color;
-                text-decoration: none;
-            }
-            &__btn {
-                @include ChakraPetch(18px, 700, 25px);
-                padding: 14px 26px;
-                background-color: $button-color;
-                color: $main-color;
-                border-radius: 30px;
+        }
+        &-container2 {
+            @include flex(column, center, center, 42px);
+            .header-box {
+                @include flex(column, center, center, 18px);
+                &__title {
+                    @include ChakraPetch(63px, 700, 60px);
+                    text-transform: capitalize;
+                    color: rgba(255, 255, 255, 0);
+                    -webkit-text-stroke: 3px #FFFFFF;
+                }
+                &__back{
+                    background-image: url(../img/svg/background.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding: 23px;
+
+                }
+                &__price {
+                    @include ChakraPetch(56px, 500, 25px);
+                }
+                &__text {
+                    @include Roboto(18px, 500, 21px);
+                }
             }
         }
     }
-    .main {
-        
+    .button {
+        @include ChakraPetch(18px, 700, 25px);
+        padding: 14px 26px;
+        background-color: $button-color;
+        color: $main-color;
+        border-radius: 30px;
     }
 }
