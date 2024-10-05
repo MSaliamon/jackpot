@@ -12,7 +12,7 @@
     line-height: $lh;
 }
 
-@mixin Flex($fd, $jc, $ai, $gp) {
+@mixin flex($fd, $jc, $ai, $gp) {
     display: flex;
     flex-direction: $fd;
     justify-content: $jc;
