@@ -51,6 +51,50 @@ body {
                     @include Roboto(18px, 500, 21px);
                 }
             }
+            .header-box2 {
+                @include flex(row, center, center, 40px);
+                .header-cont {
+                    @include flex(column, flex-start, flex-start, 30px);
+                    &__title {
+                        @include ChakraPetch(63px, 700, 60px);
+                    }
+                    &__wrap {
+                        @include flex(row, flex-start, center, 40px);
+                        .header-time {
+                            @include flex(row, center, center, 16px);
+                            &__box {
+                                @include flex(column, flex-start, flex-start, 10px);
+                                &-cont {
+                                    position: relative;
+                                    padding: 11px 30px;
+                                    border-radius: 8px;
+                                    border: 2px solid transparent;
+                                    border-image:  linear-gradient(#EA4835 , #7000D3);
+                                    border-image-slice: 1;
+                                    &-text {
+                                        @include ChakraPetch(40px, 700, 25px);
+                                    }
+                                }
+                                &-text {
+                                    @include Roboto(18px, 500, 21px);
+                                }
+                            }
+                        }
+                        &-text {
+                            @include ChakraPetch(35px, 600, 21px);
+                        }
+                    }
+                    &__loader {
+                        @include flex(column, flex-start, flex-start, 20px);
+                        &-textbox {
+                            @include flex(row, space-between, center, 300px);
+                        }
+                    }
+                    &__btn {
+                        @include flex(row, center, center, 20px);
+                    }
+                }
+            }
         }
     }
     .button {
