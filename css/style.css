@@ -252,7 +252,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            align-items: center;
+            align-items: flex-start;
             gap: 16px; }
             body .header-container2 .header-box2 .header-cont2__trade-box {
               display: flex;
