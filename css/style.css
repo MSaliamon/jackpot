@@ -79,6 +79,7 @@ body {
   background-color: #230361;
   color: #ffffff; }
   body .header {
+    background-image: url(../img/png/BACKGROUND.png);
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -156,7 +157,7 @@ body {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 40px; }
+        gap: 110px; }
         body .header-container2 .header-box2 .header-cont {
           display: flex;
           flex-direction: column;
@@ -203,6 +204,13 @@ body {
                   font-size: 18px;
                   font-weight: 500;
                   line-height: 21px; }
+              body .header-container2 .header-box2 .header-cont__wrap .header-time__dote {
+                margin-bottom: 25px;
+                color: #ffffff;
+                font-family: 'Roboto', sans-serif;
+                font-size: 35px;
+                font-weight: 600;
+                line-height: 77px; }
             body .header-container2 .header-box2 .header-cont__wrap-text {
               font-family: 'Chakra Petch', sans-serif;
               font-size: 35px;
@@ -226,6 +234,58 @@ body {
             justify-content: center;
             align-items: center;
             gap: 20px; }
+        body .header-container2 .header-box2 .header-cont2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          background-color: #360F8AE6;
+          padding: 11px 30px; }
+          body .header-container2 .header-box2 .header-cont2__title {
+            font-family: 'Chakra Petch', sans-serif;
+            font-size: 63px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 30px; }
+          body .header-container2 .header-box2 .header-cont2__trade {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 16px; }
+            body .header-container2 .header-box2 .header-cont2__trade-box {
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 10px; }
+              body .header-container2 .header-box2 .header-cont2__trade-box-text {
+                font-family: 'Chakra Petch', sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 21px; }
+            body .header-container2 .header-box2 .header-cont2__trade-input {
+              border-radius: 30px;
+              background: rgba(34, 9, 112, 0.64);
+              padding: 20px 20px 20px 20px;
+              width: 459px; }
+            body .header-container2 .header-box2 .header-cont2__trade-textbox {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              gap: 250px; }
+              body .header-container2 .header-box2 .header-cont2__trade-textbox-text {
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21px; }
+          body .header-container2 .header-box2 .header-cont2__text {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px; }
   body .button {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 18px;

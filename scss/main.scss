@@ -6,6 +6,7 @@ body {
     background-color: $background-color;
     color: $main-color;
     .header {
+        background-image: url(../img/png/BACKGROUND.png);
         padding: 40px 20px;
         @include flex(column, center, center, 15px);
         &-container1 {
@@ -52,7 +53,7 @@ body {
                 }
             }
             .header-box2 {
-                @include flex(row, center, center, 40px);
+                @include flex(row, center, center, 110px);
                 .header-cont {
                     @include flex(column, flex-start, flex-start, 30px);
                     &__title {
@@ -79,6 +80,11 @@ body {
                                     @include Roboto(18px, 500, 21px);
                                 }
                             }
+                            &__dote {
+                                margin-bottom: 25px;
+                                color: $main-color;
+                                @include Roboto(35px,600,77px);
+                            }
                         }
                         &-text {
                             @include ChakraPetch(35px, 600, 21px);
@@ -94,8 +100,44 @@ body {
                         @include flex(row, center, center, 20px);
                     }
                 }
+                .header-cont2 {
+                    @include flex(column, center, center, 10px);
+                    background-color: #360F8AE6;
+                    padding: 11px 30px;
+                    &__title {
+                        @include ChakraPetch(63px, 700, 60px);
+                        margin-bottom: 30px;
+                    }
+                    &__trade {
+                        @include flex(column, flex-start, center, 16px);
+                        &-box {
+                            @include flex(row, flex-start, center, 10px);
+                            &-text {
+                                @include ChakraPetch(18px, 600, 21px);
+                            }
+                        }
+                        &-input {
+                            border-radius: 30px;
+                            background: rgba(34, 9, 112, 0.64);
+                            padding: 20px 20px 20px 20px;
+                            width: 459px;
+                        }
+                        &-textbox {
+                            @include flex(row, space-between, center, 250px);
+                            &-text {
+                                @include Roboto(18px, 400, 21px);
+                            }
+                        }
+                    }
+                    &__text {
+                        @include Roboto(18px, 500, 21px);
+                    }
+                }
             }
         }
+    }
+    .main {
+        
     }
     .button {
         @include ChakraPetch(18px, 700, 25px);
