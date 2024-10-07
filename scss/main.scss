@@ -201,10 +201,13 @@ body {
             }
         }
         .section3 {
-            @include flex(column, center, flex-start, 54px);
+            @include flex(column, center, center, 54px);
             padding: 84px 100px;
             &__title {
                 @include ChakraPetch(55px, 700, 60px);
+                &--orange {
+                    color: $title-color;
+                }
             }
             &-container {
                 @include flex(row, center, center, 25px);

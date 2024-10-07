@@ -393,7 +393,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 54px;
     padding: 84px 100px; }
     body .main .section3__title {
@@ -401,6 +401,8 @@ body {
       font-size: 55px;
       font-weight: 700;
       line-height: 60px; }
+      body .main .section3__title--orange {
+        color: #EB4834; }
     body .main .section3-container {
       display: flex;
       flex-direction: row;
