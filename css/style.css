@@ -268,8 +268,8 @@ body {
             body .header-container2 .header-box2 .header-cont2__trade-input {
               border-radius: 30px;
               background: rgba(34, 9, 112, 0.64);
-              padding: 20px 20px 20px 20px;
-              width: 459px; }
+              padding: 20px;
+              width: 100%; }
             body .header-container2 .header-box2 .header-cont2__trade-textbox {
               display: flex;
               flex-direction: row;
@@ -286,6 +286,191 @@ body {
             font-size: 18px;
             font-weight: 500;
             line-height: 21px; }
+  body .main .section1 {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; }
+    body .main .section1-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 400px; }
+      body .main .section1-container .section1-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 45px; }
+        body .main .section1-container .section1-box__title {
+          font-family: 'Chakra Petch', sans-serif;
+          font-size: 35px;
+          font-weight: 700;
+          line-height: 60px; }
+          body .main .section1-container .section1-box__title--orange {
+            color: #EB4834; }
+        body .main .section1-container .section1-box__cont {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 28px; }
+          body .main .section1-container .section1-box__cont-textbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 20px; }
+            body .main .section1-container .section1-box__cont-textbox-text1 {
+              font-family: 'Roboto', sans-serif;
+              font-size: 21px;
+              font-weight: 500;
+              line-height: 21px; }
+            body .main .section1-container .section1-box__cont-textbox-text2 {
+              font-family: 'Roboto', sans-serif;
+              font-size: 25px;
+              font-weight: 500;
+              line-height: 21px;
+              color: #EB4834; }
+          body .main .section1-container .section1-box__cont-price {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 15px; }
+            body .main .section1-container .section1-box__cont-price-coin {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              gap: 10px; }
+              body .main .section1-container .section1-box__cont-price-coin-text {
+                font-family: 'Roboto', sans-serif;
+                font-size: 19px;
+                font-weight: 500;
+                line-height: 21px; }
+  body .main .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    margin-top: 40px; }
+    body .main .section2__title {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 60px; }
+      body .main .section2__title--orange {
+        color: #EB4834; }
+    body .main .section2-cont {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 25px;
+      padding: 50px 100px; }
+      body .main .section2-cont .section2-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 20px 100px 20px;
+        background-color: #320F80;
+        border-radius: 12px; }
+        body .main .section2-cont .section2-box__text {
+          font-family: 'Roboto', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 21px;
+          opacity: 0.9;
+          text-align: center; }
+  body .main .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 54px;
+    padding: 84px 100px; }
+    body .main .section3__title {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 60px; }
+    body .main .section3-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 25px; }
+      body .main .section3-container .section3-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px; }
+        body .main .section3-container .section3-box__cont {
+          border-left: 3px solid transparent;
+          border-image: linear-gradient(#DB205B, #7000D3);
+          border-image-slice: 1;
+          padding-left: 24px; }
+          body .main .section3-container .section3-box__cont-text {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 21px;
+            width: 83%;
+            line-height: 50px; }
+  body .main .section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 54px; }
+    body .main .section4__title {
+      font-family: 'Chakra Petch', sans-serif;
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 60px; }
+      body .main .section4__title--orange {
+        color: #EB4834; }
+    body .main .section4-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 61px; }
+      body .main .section4-container .section4-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background-color: #320F80;
+        padding: 23px 50px;
+        border-radius: 12px; }
+        body .main .section4-container .section4-box__list {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 20px; }
+          body .main .section4-container .section4-box__list-title {
+            font-family: 'Chakra Petch', sans-serif;
+            font-size: 33px;
+            font-weight: 600;
+            line-height: 25px; }
+        body .main .section4-container .section4-box__item {
+          font-family: 'Roboto', sans-serif;
+          font-size: 21px;
+          font-weight: 500;
+          line-height: 21px;
+          opacity: 0.9;
+          margin-left: 25px; }
   body .button {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 18px;

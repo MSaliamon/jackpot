@@ -119,8 +119,8 @@ body {
                         &-input {
                             border-radius: 30px;
                             background: rgba(34, 9, 112, 0.64);
-                            padding: 20px 20px 20px 20px;
-                            width: 459px;
+                            padding: 20px;
+                            width: 100%;
                         }
                         &-textbox {
                             @include flex(row, space-between, center, 250px);
@@ -137,7 +137,123 @@ body {
         }
     }
     .main {
-        
+        .section1 {
+            margin-top: 33px;
+            @include flex(column, center, center, 100px);
+            &-container {
+                @include flex(row, space-between, center, 400px);
+                .section1-box {
+                    @include flex(column, flex-start, flex-start, 45px);
+                    &__title {
+                        @include ChakraPetch(35px, 700, 60px);
+                        &--orange {
+                            color :$title-color;
+                        }
+                    }
+                    &__cont {
+                        @include flex(row, center, center, 28px);
+                        &-textbox {
+                            @include flex(column, flex-start, flex-start, 20px);
+                            &-text1 {
+                                @include Roboto(21px, 500, 21px);
+                            }
+                            &-text2 {
+                                @include Roboto(25px, 500, 21px);
+                                color: $title-color
+                            }
+                        }
+                        &-price {
+                            @include flex(column, flex-start, flex-start, 15px);
+                            &-coin {
+                                @include flex(row, center, center, 10px);
+                                &-text {
+                                    @include Roboto(19px, 500, 21px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section2 {
+            @include flex(column, center, center, 54px);
+            margin-top: 40px;
+            &__title {
+                @include ChakraPetch(55px, 700, 60px);
+                &--orange {
+                    color :$title-color;
+                }
+            }
+            &-cont {
+                @include flex(row, space-between, center, 25px);
+                padding: 50px 100px;
+                .section2-box {
+                    @include flex(column, center, center, 20px);
+                    padding: 20px 20px 100px 20px;
+                    background-color: $light-background;
+                    border-radius: 12px;
+                    &__text {
+                        @include Roboto(16px, 400, 21px);
+                        opacity: 0.9;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .section3 {
+            @include flex(column, center, flex-start, 54px);
+            padding: 84px 100px;
+            &__title {
+                @include ChakraPetch(55px, 700, 60px);
+            }
+            &-container {
+                @include flex(row, center, center, 25px);
+                .section3-box {
+                    @include flex(column, center, center, 80px);
+                    &__cont {
+                        border-left: 3px solid transparent;
+                        border-image:  linear-gradient(#DB205B, #7000D3);
+                        border-image-slice: 1;
+                        padding-left: 24px;
+                        &-text {
+                            @include Roboto(20px, 500, 21px);
+                            width: 83%;
+                            line-height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        .section4 {
+            @include flex(column, center, center, 54px);
+            &__title {
+                @include ChakraPetch(55px, 700, 60px);
+                &--orange {
+                    color :$title-color;
+                }
+            }
+            &-container {
+                @include flex(row, center, center, 61px);
+                .section4-box {
+                    @include flex(row, center, center, 50px);
+                    background-color: $light-background;
+                    padding: 23px 50px;
+                    border-radius: 12px;
+                    &__list {
+                        
+                        @include flex(column, flex-start, flex-start, 20px);
+                        &-title {
+                            @include ChakraPetch(33px, 600, 25px);
+                        }
+                    }
+                    &__item {
+                        @include Roboto(21px, 500, 21px);
+                        opacity: 0.9;
+                        margin-left: 25px;
+                    }
+                }
+            }
+        }
     }
     .button {
         @include ChakraPetch(18px, 700, 25px);
