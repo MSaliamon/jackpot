@@ -257,6 +257,55 @@ body {
                 }
             }
         }
+        .section5 {
+            @include flex(row, center, center, 150px);
+            padding: 100px;
+            &-container {
+                @include flex(column, flex-start, flex-start, 20px);
+                &__title {
+                    @include ChakraPetch(45px, 700, 60px);
+                    &--orange {
+                        color :$title-color;
+                    }
+                }
+                &__text {
+                    @include Roboto(19px, 400, 21px);
+                    width: 60%;
+                }
+                &__list {
+                    @include flex(column, flex-start, flex-start, 20px);
+                    margin-left: 20px;
+                }
+                &__item {
+                    @include Roboto(19px, 400, 21px);
+                }
+            }
+        }
+        .section6 {
+            @include flex(flex, flex-start, center, 54px);
+            margin: 0px 150px;
+            background-color: transparent;
+            background-image:  linear-gradient(#7000D3, #280B70);
+            &-container {
+                @include flex(column, flex-start, flex-start, 20px);
+                &__title {
+                    @include ChakraPetch(45px, 700, 60px);
+                }
+                &__text {
+                    @include Roboto(40px, 400, 60px);
+                    width: 90%;
+                }
+                &__label {
+                    padding: 3px 9px;
+                    background-color: $background-color;
+                    border-radius: 100px;
+                }
+                &__input {
+                    padding: 10px 17px;
+                }
+            }
+            
+        }
     }
     .button {
         @include ChakraPetch(18px, 700, 25px);
