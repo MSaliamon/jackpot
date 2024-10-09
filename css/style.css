@@ -367,9 +367,9 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       gap: 25px;
-      padding: 50px 100px; }
+      padding: 50px 14px; }
       body .main .section2-cont .section2-box {
         display: flex;
         flex-direction: column;

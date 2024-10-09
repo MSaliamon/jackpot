@@ -185,8 +185,8 @@ body {
                 }
             }
             &-cont {
-                @include flex(row, space-between, center, 25px);
-                padding: 50px 100px;
+                @include flex(row, space-between, flex-start, 25px);
+                padding: 50px 14px;
                 .section2-box {
                     @include flex(column, center, center, 20px);
                     padding: 20px 20px 100px 20px;
