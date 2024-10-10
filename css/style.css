@@ -544,6 +544,7 @@ body {
     align-items: center;
     gap: 54px;
     margin: 0px 150px;
+    z-index: 2;
     background-color: transparent;
     background-image: linear-gradient(#7000D3, #280B70); }
     body .main .section6-container {
@@ -569,6 +570,46 @@ body {
         border-radius: 100px; }
       body .main .section6-container__input {
         padding: 10px 17px; }
+  body .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-image: url(../img/png/footer-bg.png);
+    padding: 400px 20px 30px 40px;
+    margin-top: -200px;
+    z-index: -1; }
+    body .footer-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 100px; }
+      body .footer-container__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+        list-style-type: none; }
+        body .footer-container__list-title {
+          font-family: 'Chakra Petch', sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 21px; }
+      body .footer-container__link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        color: #ffffff;
+        text-decoration: none; }
+    body .footer-container2__text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px; }
   body .button {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 18px;
