@@ -91,9 +91,15 @@ body {
                         }
                     }
                     &__loader {
+                        position: relative;
                         @include flex(column, flex-start, flex-start, 20px);
                         &-textbox {
                             @include flex(row, space-between, center, 300px);
+                        }
+                        &-img2 {
+                            position: absolute;
+                            top: 38px;
+                            
                         }
                     }
                     &__btn {

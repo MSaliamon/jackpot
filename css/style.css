@@ -214,6 +214,7 @@ body {
               font-weight: 600;
               line-height: 21px; }
           body .header-container2 .header-box2 .header-cont__loader {
+            position: relative;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -225,6 +226,9 @@ body {
               justify-content: space-between;
               align-items: center;
               gap: 300px; }
+            body .header-container2 .header-box2 .header-cont__loader-img2 {
+              position: absolute;
+              top: 38px; }
           body .header-container2 .header-box2 .header-cont__btn {
             display: flex;
             flex-direction: row;
